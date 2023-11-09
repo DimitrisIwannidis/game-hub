@@ -30,7 +30,7 @@ const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
             <MenuItem
               onClick={() => onSelectSortOrder(order.value)}
               key={order.value}
-              vale={order.value}
+              value={order.value}
             >
               {order.label}
             </MenuItem>
